@@ -64,7 +64,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\FlyCamera.cs" />
     <Compile Include="Assets\Scripts\NanoAgent\GenerateNano.cs" />
+    <Compile Include="Assets\Scripts\NanoAgent\GenerateNanor3d.cs" />
+    <Compile Include="Assets\Scripts\NanoAgent\GenerateQueen.cs" />
     <Compile Include="Assets\Scripts\NanoAgent\Movement.cs" />
+    <Compile Include="Assets\Scripts\NanoAgent\Movement3D.cs" />
+    <Compile Include="Assets\Scripts\NanoAgent\Queen.cs" />
     <Compile Include="Assets\Scripts\Tumor\BlockTumor.cs" />
     <Compile Include="Assets\Scripts\Tumor\BlockTumor3D.cs" />
     <Reference Include="Unity.Timeline.Editor">

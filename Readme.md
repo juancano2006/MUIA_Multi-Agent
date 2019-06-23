@@ -38,6 +38,14 @@ Then moves towards the higher intensity of the signal;
 Until there is an “active” nanobot
 ```
 
+## 3D version
+
+Without a NavMesh and without a pathfinding algorithm, there be a new agent: the queen.
+
+The Queen knows where is the tumoral cells and guide the rest of the agents to there.
+
+The agents dont have quimicals, agents now have 10 lifes and, when it destroy one cell, 1 life is substrate from it.
+
 ## Extra credits
 Camera Controller: https://github.com/UniFormal/TGView3D/blob/master/TGView3D/Assets/Scripts/FlyCamera.cs
 
@@ -45,8 +53,12 @@ Smoke: https://assetstore.unity.com/packages/vfx/particles/white-smoke-particle-
 
 ## Changelog
 
+V2.0: Release 3D version
+
 V1.0: Released version.
 
-##Future Work
+## Future Work
 
-Release the 3D version, that search malicious cells in the x, y, z axis.
+Work in a pathfinding algorithm to explore the terrain without a queen.
+
+Fix some bugs in 3D version.
